@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: white;
+}
+
+header{
+	background: #D0D0D0;
+	padding: 10px;
+}
+
+header h1{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: #FA2F2F;
+}
+
+header h2{
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+}
+
+.contenedor{
+	padding: 20px;
+	background: ;
+}
+
+.contenedor h2{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: #FA2F2F;
+}
+
+
+section #encabezado{
+	border-radius: 25px;
+	background: #D0D0D0;
+	box-shadow: 10px 10px 5px #000;
+}
+
+section article{
+	margin-top: 30px;
+}
+
+section article table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section article table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+section article table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+footer {
+    position: fixed;
+    height: 50px;
+    background: #D0D0D0;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+footer .nosotros p{
+	font-family: 'Hind', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
