@@ -1,0 +1,60 @@
+#include <Ethernet.h>
+#include <SPI.h>
+#include <String.h>
+#include <stdlib.h>
+#include "RestClient.h"
+
+#include <DHT22.h>
+#include <stdio.h>
+
+//Apuntamos al host destino (en nuestro caso al servidor 10.2.1.200)
+RestClient cliente = RestClient("http://10.2.1.200:4413/Proyecto/rest2.php");
+
+//Definimos el PIN en el que se encuentra el sensor de Temperatura y Humedad
+#define DHT22_PIN 5
+
+//Declaramos variables para almacenar valores
+String trabajo, temphum, response;
+//Declaramos variables de entrada y salida del sensor
+int SensorValue, outputVaule;
+//Establecemos el PIN 5 como un pi para el DHT22
+DHT22 myDHT22(DHT22_PIN);
+
+//Definimos la MAC address de nuestro Arduino
+byte mac[] = { 0x90, 0xA2, 0xDA, 0X0D, 0xF6, 0XF0};
+
+//Inicializamos variables
+String temp = "HOLA";
+String serie = "Arduino 1";
+
+void setup(){
+	Serial.println("Conectado a la red");
+	client.dhcp();
+}
+
+void reporte(){
+	trabajo = "in";
+	while( trabajo == "in"){
+		DHT22_ERROR_t errorCode;
+		delay(2000);
+
+		errorCode = myDHT22.readData();
+		switch(errorCode){
+			case DHT_ERROR_NONE:
+		}
+	}
+}
+
+void sensores(){
+
+}
+
+void loop(){
+	while(true){
+		delay(60000);
+		sensores();
+		temp = "SERIE" + serie + "&" + temphum;
+
+		reporte();
+	}
+}

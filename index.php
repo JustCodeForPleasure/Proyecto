@@ -154,7 +154,7 @@
 			</table>
 		</article>
 	</section>
-
+	
 	<footer>
 		<div class="nosotros">
 			<p>Grupo CCRED - Todos los derechos reservados</p>	
