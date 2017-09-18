@@ -13,6 +13,9 @@
 	<header>
 		<h1>Sistema de Control y Monitoréo de Arduino</h1>
 		<h2>Grupo CCRED</h2>
+		<ul>
+			<li><a href=""></a></li>
+		</ul>
 	</header>
 
 	<section class="contenedor">

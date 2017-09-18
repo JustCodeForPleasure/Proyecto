@@ -13,6 +13,7 @@
 	<header>
 		<h1>Sistema de Control y Monitoréo de Arduino</h1>
 		<h2>Grupo CCRED</h2>
+		<h3><a href="cerrar.php">Cerrar Sessión</a></h3>
 	</header>
 
 	<section class="contenedor">
