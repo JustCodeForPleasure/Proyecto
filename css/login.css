@@ -49,14 +49,14 @@ a:hover{
 	margin-bottom: 30px;
 }
 
-.formulario .from-group{
+.formulario .form-group{
 	width: 100%;
 	margin-bottom: 10px;
 }
 
 .formulario input[type="text"],
 .formulario input[type="password"]{
-	padding: 15px;
+	padding: 11px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	line-height: 18px;
@@ -75,19 +75,11 @@ a:hover{
 	display: inline-block;
 	color: #6b6b6b;
 	vertical-align: top;
-}
-
-.formulario .icono .izquierda{
-	margin-right: 4px;
-	-webkit-border-radius: 3px 0 0 3px;
-	-moz-border-radius: 3px 0 0 3px;
-	-ms-border-radius: 3px 0 0 3px;
-	-o-border-radius: 3px 0 0 3px;
 	border-radius: 3px 0 0 3px;
 }
 
 .formulario .usuario,
-.formualrio .password{
+.formulario .password{
 	width: calc(100% - 52px);
 	-webkit-border-radius: 0 3px 3px 0;
 	-moz-border-radius: 0 3px 3px 0;
